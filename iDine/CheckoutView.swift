@@ -47,14 +47,14 @@ struct CheckoutView: View {
             
             Section("Total: \(totalPrice)") {
                 Button("Confirm Order") {
-                    isShowingAlert = true
+                    isShowingAlert.toggle()
                 }
             }
         }
         .navigationTitle("Payment")
         .navigationBarTitleDisplayMode(.inline)
         .alert("Order Confirmed", isPresented: $isShowingAlert) {
-            // Custom alert buttons
+            // No buttons needed
         } message: {
             Text("Your total was \(totalPrice)")
         }

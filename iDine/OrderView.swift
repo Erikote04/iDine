@@ -11,7 +11,7 @@ struct OrderView: View {
                         HStack {
                             Text(item.name)
                             Spacer()
-                            Text("$\(item.name)")
+                            Text("$\(item.price)")
                         }
                     }
                     .onDelete(perform: deleteItems)
