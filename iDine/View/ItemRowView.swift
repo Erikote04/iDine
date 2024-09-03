@@ -1,8 +1,7 @@
 import SwiftUI
 
-struct ItemRow: View {
+struct ItemRowView: View {
     let item: MenuItem
-    let colors: [String: Color] = ["D": .purple, "G": .black, "N": .red, "S": .blue, "V": .green]
     
     var body: some View {
         HStack {
@@ -19,18 +18,12 @@ struct ItemRow: View {
             Spacer()
             
             ForEach(item.restrictions, id: \.self) { restriction in
-                Text(restriction)
-                    .font(.caption)
-                    .fontWeight(.bold)
-                    .padding(5)
-                    .background(colors[restriction, default: .black])
-                    .clipShape(.circle)
-                    .foregroundStyle(.white)
+                RestrictionIconView(restriction: restriction)
             }
         }
     }
 }
 
 #Preview {
-    ItemRow(item: MenuItem.example)
+    ItemRowView(item: MenuItem.example)
 }

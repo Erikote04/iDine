@@ -10,14 +10,14 @@ struct ContentView: View {
                     Section(section.name) {
                         ForEach(section.items) { item in
                             NavigationLink(value: item) {
-                                ItemRow(item: item)
+                                ItemRowView(item: item)
                             }
                         }
                     }
                 }
             }
             .navigationDestination(for: MenuItem.self) { item in
-                ItemDetail(item: item)
+                ItemDetailView(item: item)
             }
             .navigationTitle("Menu")
             .listStyle(.grouped)

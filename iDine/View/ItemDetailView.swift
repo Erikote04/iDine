@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ItemDetail: View {
+struct ItemDetailView: View {
     let item: MenuItem
     @EnvironmentObject var order: Order
     
@@ -11,12 +11,7 @@ struct ItemDetail: View {
                     .resizable()
                     .scaledToFit()
                 
-                Text("Photo by \(item.photoCredit)")
-                    .padding(4)
-                    .background(.black)
-                    .font(.caption)
-                    .foregroundStyle(.white)
-                    .offset(x: -5, y: -5)
+                PhotoCreditTextView(text: item.photoCredit)
             }
             
             Text(item.description)
@@ -36,7 +31,7 @@ struct ItemDetail: View {
 
 #Preview {
     NavigationStack {
-        ItemDetail(item: MenuItem.example)
+        ItemDetailView(item: MenuItem.example)
             .environmentObject(Order())
     }
 }
