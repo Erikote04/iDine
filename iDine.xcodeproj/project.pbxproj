@@ -70,16 +70,10 @@
 			isa = PBXGroup;
 			children = (
 				BB8E415F2C87746700E7FA8F /* iDineApp.swift */,
-				BB8E417B2C87BE4000E7FA8F /* CheckoutView.swift */,
-				BB8E41612C87746700E7FA8F /* ContentView.swift */,
-				BB8E417D2C87C9A600E7FA8F /* MainView.swift */,
-				BB8E41772C87845E00E7FA8F /* ItemDetail.swift */,
-				BB8E41792C87BD0300E7FA8F /* OrderView.swift */,
-				BB8E41752C877F1400E7FA8F /* ItemRow.swift */,
-				BB8E416F2C8775D800E7FA8F /* Helper.swift */,
-				BB8E41702C8775D800E7FA8F /* Menu.swift */,
-				BB8E416E2C8775D800E7FA8F /* Order.swift */,
-				BB8E416D2C8775D800E7FA8F /* menu.json */,
+				BB8E417F2C87CB5500E7FA8F /* Model */,
+				BB8E41802C87CB9600E7FA8F /* View */,
+				BB8E41812C87CC1400E7FA8F /* Util */,
+				BB8E41822C87CC3000E7FA8F /* Data */,
 				BB8E41632C87746800E7FA8F /* Assets.xcassets */,
 				BB8E41652C87746800E7FA8F /* Preview Content */,
 			);
@@ -92,6 +86,44 @@
 				BB8E41662C87746800E7FA8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB8E417F2C87CB5500E7FA8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E41702C8775D800E7FA8F /* Menu.swift */,
+				BB8E416E2C8775D800E7FA8F /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB8E41802C87CB9600E7FA8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E417D2C87C9A600E7FA8F /* MainView.swift */,
+				BB8E41612C87746700E7FA8F /* ContentView.swift */,
+				BB8E41752C877F1400E7FA8F /* ItemRow.swift */,
+				BB8E41772C87845E00E7FA8F /* ItemDetail.swift */,
+				BB8E41792C87BD0300E7FA8F /* OrderView.swift */,
+				BB8E417B2C87BE4000E7FA8F /* CheckoutView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB8E41812C87CC1400E7FA8F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E416F2C8775D800E7FA8F /* Helper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BB8E41822C87CC3000E7FA8F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E416D2C8775D800E7FA8F /* menu.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
