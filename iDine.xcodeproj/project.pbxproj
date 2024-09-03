@@ -19,6 +19,7 @@
 		BB8E41782C87845E00E7FA8F /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8E41772C87845E00E7FA8F /* ItemDetail.swift */; };
 		BB8E417A2C87BD0300E7FA8F /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8E41792C87BD0300E7FA8F /* OrderView.swift */; };
 		BB8E417C2C87BE4000E7FA8F /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8E417B2C87BE4000E7FA8F /* CheckoutView.swift */; };
+		BB8E417E2C87C9A600E7FA8F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8E417D2C87C9A600E7FA8F /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		BB8E41772C87845E00E7FA8F /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		BB8E41792C87BD0300E7FA8F /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		BB8E417B2C87BE4000E7FA8F /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		BB8E417D2C87C9A600E7FA8F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				BB8E415F2C87746700E7FA8F /* iDineApp.swift */,
 				BB8E417B2C87BE4000E7FA8F /* CheckoutView.swift */,
 				BB8E41612C87746700E7FA8F /* ContentView.swift */,
+				BB8E417D2C87C9A600E7FA8F /* MainView.swift */,
 				BB8E41772C87845E00E7FA8F /* ItemDetail.swift */,
 				BB8E41792C87BD0300E7FA8F /* OrderView.swift */,
 				BB8E41752C877F1400E7FA8F /* ItemRow.swift */,
@@ -165,6 +168,7 @@
 				BB8E41722C8775D800E7FA8F /* Order.swift in Sources */,
 				BB8E417A2C87BD0300E7FA8F /* OrderView.swift in Sources */,
 				BB8E41782C87845E00E7FA8F /* ItemDetail.swift in Sources */,
+				BB8E417E2C87C9A600E7FA8F /* MainView.swift in Sources */,
 				BB8E41622C87746700E7FA8F /* ContentView.swift in Sources */,
 				BB8E41602C87746700E7FA8F /* iDineApp.swift in Sources */,
 				BB8E41762C877F1400E7FA8F /* ItemRow.swift in Sources */,
